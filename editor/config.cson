@@ -1,0 +1,35 @@
+"*":
+  "atom-clock":
+    dateFormat: "H:mm:ss"
+    refreshInterval: 1
+    showClockIcon: true
+  "autocomplete-modules":
+    webpack: true
+  core:
+    customFileTypes:
+      "source.js.jsx": [
+        "jsx"
+        "js"
+      ]
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "monokai-seti"
+    ]
+  "exception-reporting":
+    userId: "3237b948-8bc2-4e54-9500-e9a2b6ab66b5"
+  "language-babel":
+    autoIndentJSX: true
+    emmetCSSAutocomplete: true
+  latex:
+    buildOnSave: true
+    openResultAfterBuild: false
+    openResultInBackground: false
+  "linter-eslint":
+    autofix:
+      fixOnSave: true
+  "linter-ui-default": {}
+  "seti-ui":
+    themeColor: "Orange"
+  welcome:
+    showOnStartup: false

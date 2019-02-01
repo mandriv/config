@@ -1,0 +1,17 @@
+atom-clock@0.1.16
+autocomplete-modules@2.2.6
+busy-signal@2.0.0
+intentions@1.1.5
+language-babel@2.85.0
+language-latex@1.2.0
+latex@0.50.2
+linter@2.3.0
+linter-eslint@8.5.0
+linter-ui-default@1.7.1
+minimap@4.29.9
+monokai-seti@0.9.0
+pdf-view@0.71.0
+pigments@0.40.2
+project-plus@1.0.0
+seti-ui@1.11.0
+
