@@ -18,18 +18,29 @@
     ]
   "exception-reporting":
     userId: "3237b948-8bc2-4e54-9500-e9a2b6ab66b5"
+  "git-plus":
+    general:
+      splitPane: "Right"
+  github:
+    viewChangesForCurrentFileDiffPaneSplitDirection: "right"
   "language-babel":
     autoIndentJSX: true
     emmetCSSAutocomplete: true
   latex:
     buildOnSave: true
+    engine: "xelatex"
     openResultAfterBuild: false
     openResultInBackground: false
   "linter-eslint":
     autofix:
       fixOnSave: true
-  "linter-ui-default": {}
+  "linter-flow":
+    executablePath: "yarn flow"
+  "linter-ui-default":
+    panelHeight: 230
+  minimap: {}
   "seti-ui":
     themeColor: "Orange"
+  "tree-view": {}
   welcome:
     showOnStartup: false

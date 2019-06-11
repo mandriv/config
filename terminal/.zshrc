@@ -91,6 +91,14 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/bin:$PATH
 export PATH="$(yarn global bin):$PATH"
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+export LANG=en_US
+export LC_ALL=$LANG
+
+
+export PATH=$HOME/omnetpp-5.4.1/bin:$HOME/omnetpp-5.4.1/tools/macosx/bin:$PATH
+export QT_PLUGIN_PATH=$HOME/omnetpp-5.4.1/tools/macosx/plugins
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -103,3 +111,5 @@ export PATH="$(yarn global bin):$PATH"
 alias grep="grep --color"
 alias c="clear"
 alias fix-touchbar="sudo pkill TouchBarServer"
+alias fix-audio="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
+alias cal='gcal --starting-day=1'
